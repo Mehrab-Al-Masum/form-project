@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="formdiv">
+        <h1>Log-in</h1>
+        <form action="#">
+           <div class="name"> <h3>Name</h3></div>
+           <i class="usericon far fa-user" ></i>
+            <input class="user"  type="text"  placeholder="type your name"> <br>
+            
+            <div class="name"> <h3>E-mail</h3></div>
+            <i class="emailicon far fa-envelope"></i>
+            <input type="email" placeholder="type your e-mail"><br>
+
+            <div class="name"> <h3>Password</h3></div>
+            <i class=" lockicon fas fa-lock"></i>
+            <input type="password" placeholder="type your password"><br>
+
+            <div class="name"> <h3>Phone no</h3></div>
+            <i class="fas fa-mobile-alt"></i>
+            <input type="number" placeholder="type your phone no"><br>
+
+            <div class="name"> <h3>city/town</h3></div>
+            <i class=" cityicon fas fa-university"></i>    <select  name="" id="" >
+                <option value="Dhaka">Dhaka</option>
+                <option value="Bhola">Bhola</option>
+                <option value="Other">Other</option>
+            </select><br>
+
+            <div class="name"> <h3>Zip-code</h3></div>
+            <i class=" zipicon far fa-window-maximize"></i>
+            <input type="number" placeholder="type your zip-code"><br>
+
+            <div class="name namegender"> <h3>Gender</h3></div>
+           
+           <div class="gender">  <i class=" maleicon fas fa-male"></i><input class="firstchild" type="radio" name="gender" value="Male"><p>Male</p>
+            <i class=" femaleicon fas fa-female"></i>
+            <input class="secondchild" type="radio" name="gender" value="Female"><p>Female</p></div>
+
+            <div class="name nameservice"> <h3>Services</h3></div>
+           <div class="service"> <input class="input child1" type="checkbox" name="services" value="HTML"><p>HTML</p>
+            <input class="input child2" type="checkbox" name="services" value="CSS"><p>CSS</p>
+            <input class="input child3" type="checkbox" name="services" value="Java-scrip"><p>Java-script</p></div>
+            <div class="name"> <h3>Upload CV</h3></div>
+
+            <input class="file" type="file" ><br>
+
+            <div class="name"> <h3>Massage</h3></div>
+           <textarea name="" id="" cols="" rows="" placeholder="type a comment"></textarea> <br>
+            <input class="submit" type="submit" value="Submit Data">
+            <input class="reset" type="reset" value="Reset all">
+           
+        </form>
+    </div>
+    
+</body>
+</html>
